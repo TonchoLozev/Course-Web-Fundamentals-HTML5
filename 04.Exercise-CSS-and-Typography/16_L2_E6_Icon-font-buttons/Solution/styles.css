@@ -1,0 +1,25 @@
+html{
+    font-size: 14px;
+}
+
+.click{
+    background-color: #028102;
+}
+
+.email{
+    background-color: #FF8D02;
+}
+
+a {
+    color: white;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+p{
+    margin-bottom: 35px;
+}
+
+i{
+    margin-right: 6px;
+}
