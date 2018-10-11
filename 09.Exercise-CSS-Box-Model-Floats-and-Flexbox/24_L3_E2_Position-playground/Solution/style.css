@@ -1,0 +1,45 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.viewport {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.viewport:nth-child(1) {
+    background: linear-gradient(90deg, rgba(24, 91, 157, 1) 0%, rgba(65, 202, 162, 1) 100%);
+}
+
+.viewport:nth-child(2) {
+    background: linear-gradient(90deg, rgba(170, 53, 121, 1) 0%, rgba(210, 131, 21, 1) 100%);
+}
+
+.card {
+    text-align: center;
+}
+
+section {
+    display: block;
+}
+
+img{
+    width: 16%;
+    border-radius: 5px;
+}
+
+#first-pic {
+    height: 50%;
+}
+
+#second-pic {
+    height: 90%;
+}

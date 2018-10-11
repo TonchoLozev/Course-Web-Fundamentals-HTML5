@@ -1,0 +1,52 @@
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-weight: inherit
+}
+
+button {
+    font-weight: bold;
+    background: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 7px 16px;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+i {
+    font-size: 11px;
+    margin-right: 8px;
+}
+
+.normal-buttons button {
+    background: none;
+    color: black;
+}
+
+.normal-buttons button:hover {
+    border-color: #036702;
+    color: #036702;
+}
+
+.filled-buttons button:hover {
+    border-color: #036702;
+    background-color: #036702;
+}
+
+.icon-buttons button:hover {
+    border-color: #036702;
+    background-color: #036702;
+}

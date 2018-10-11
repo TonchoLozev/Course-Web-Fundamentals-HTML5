@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+}
+
+section{
+    width: 53%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+
+img{
+    max-height: 450px;
+    border: 5px solid black;
+    padding: 5px;
+}
+
+li{
+    display: inline-block;
+}
