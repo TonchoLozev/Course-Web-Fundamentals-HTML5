@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4378288f-0e81-4150-91f8-bb1b2410def7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/36_L4_E4_Media-query-less-layout-using-flexbox/Solution/index.html" afterPath="$PROJECT_DIR$/36_L4_E4_Media-query-less-layout-using-flexbox/Solution/index.html" />
-      <change beforePath="$PROJECT_DIR$/36_L4_E4_Media-query-less-layout-using-flexbox/Solution/style.css" afterPath="$PROJECT_DIR$/36_L4_E4_Media-query-less-layout-using-flexbox/Solution/style.css" />
-    </list>
+    <list default="true" id="4378288f-0e81-4150-91f8-bb1b2410def7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -63,7 +59,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/36_L4_E4_Media-query-less-layout-using-flexbox/Solution/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -83,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="screenshot.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="screenshot.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/36_L4_E4_Media-query-less-layout-using-flexbox/Requirements-and-Resources/screenshot.png">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -248,12 +244,12 @@
       <workItem from="1539241444776" duration="13845000" />
       <workItem from="1539330084838" duration="12318000" />
       <workItem from="1539373765242" duration="141000" />
-      <workItem from="1539374010266" duration="2730000" />
+      <workItem from="1539374010266" duration="2802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29034000" />
+    <option name="totallyTimeSpent" value="29106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -453,17 +449,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/36_L4_E4_Media-query-less-layout-using-flexbox/Requirements-and-Resources/screenshot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/36_L4_E4_Media-query-less-layout-using-flexbox/Solution/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/36_L4_E4_Media-query-less-layout-using-flexbox/Requirements-and-Resources/screenshot.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
   </component>
