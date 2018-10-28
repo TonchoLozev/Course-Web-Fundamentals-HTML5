@@ -1,0 +1,149 @@
+@import url("reset.css");
+@import url("typography.css");
+@import url("buttons.css");
+@import url("timeline.css");
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+}
+
+/*header style*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 1800px) {
+    header {
+        width: 70%;
+        margin-bottom: 3rem;
+    }
+}
+
+/*logo style*/
+header .logo {
+    display: flex;
+    flex-direction: column;
+}
+
+header .logo span:nth-child(1) {
+    color: #860980;
+}
+
+@media screen and (min-width: 1800px) {
+    header .logo span:nth-child(1) {
+        font-size: 1.6rem;
+    }
+
+    header .logo span:nth-child(2) {
+        font-size: 0.42rem;
+    }
+}
+
+/*nav style*/
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1800px) {
+    nav ul {
+        width: 20rem;
+        font-size: 0.9rem;
+    }
+}
+
+nav ul li {
+    list-style: none;
+}
+
+/*(second section)description style*/
+.description {
+    display: flex;
+    align-items: center;
+}
+
+.description div {
+    display: flex;
+    flex-direction: column;
+}
+
+.description div a {
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+@media screen and (min-width: 1800px) {
+    .description {
+        display: flex;
+        justify-content: space-between;
+        width: 45%;
+        height: 27%;
+        margin-bottom: 3rem;
+    }
+
+    .description div{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .description div span {
+        font-size: 1.5rem;
+    }
+
+    .description div p {
+        width: 27rem;
+        font-size: 0.8rem;
+    }
+
+    .description div a {
+        display: flex;
+        justify-content: center;
+        font-size: 0.7rem;
+        width: 9.5rem;
+    }
+
+    .description i {
+        font-size: 7rem;
+    }
+}
+
+/*sizes*/
+@media screen and (min-width: 500px) {
+    html {
+        font-size: 14px
+    }
+}
+
+@media screen and (min-width: 600px) {
+    html {
+        font-size: 16px
+    }
+}
+
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 18px
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    html {
+        font-size: 21px
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    html {
+        font-size: 23px
+    }
+}
