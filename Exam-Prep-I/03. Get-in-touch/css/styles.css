@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgba(130,106,211,0.9), rgba(130,106,211,0.9)), url('../images/bg-01.jpg');
+    background-size: cover;
+    padding: 3rem 18rem;
+}
+
+main{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    height: 33rem;
+    padding: 0 7rem;
+}
+
+img{
+    height: 15rem;
+    width: auto;
+}
+
+form{
+    width: 15rem;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form span{
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.input-filed{
+    display: flex;
+    background-color: #E6E6E6;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.input-filed i{
+    font-size: 10px;
+    color: #AAAAAA ;
+    margin-right: 6px;
+}
+
+.input-filed input{
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    font-size: 10px;
+}
+
+.input-filed input::placeholder{
+    color: #AAAAAA;
+    font-weight: bold;
+}
+
+.input-filed:focus-within i{
+    color: #846ADD;
+}
+
+textarea{
+    border: none;
+    outline: none;
+    background-color: #E6E6E6;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 10px;
+    padding: 10px 20px;
+    height: 7rem;
+}
+
+button{
+    border: none;
+    width: 100%;
+    color: white;
+    background-color: #846ADD;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+button:hover{
+    background-color: #333333;
+    cursor: pointer;
+}

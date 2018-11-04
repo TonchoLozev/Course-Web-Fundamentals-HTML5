@@ -1,0 +1,124 @@
+/*TODO:*/
+@media (min-width: 768px) and (max-width: 1028px) {
+    #main {
+        flex-direction: column;
+    }
+
+    aside {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: auto;
+        margin: 3% 6%;
+    }
+
+    #personal-info hr {
+        display: none;
+    }
+
+    aside img {
+        width: 16rem;
+        height: 15rem;
+        border-radius: 50%;
+        margin: 2rem 1rem;
+
+    }
+
+    aside article {
+        margin: 2rem 1rem;
+    }
+
+    #skills {
+        width: 100%;
+    }
+
+    #languages {
+        width: 100%;
+    }
+
+    main {
+        width: auto;
+    }
+
+    #education {
+        margin: 3% 6%;
+        padding: 2rem 3rem;
+    }
+
+    #work {
+        margin: 3% 6%;
+        padding: 2rem 3rem;
+    }
+
+    .progress-bar {
+        color: #009688;
+    }
+}
+
+@media (max-width: 768px) {
+    #main {
+        flex-direction: column;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: 3% 6%;
+    }
+
+    #personal-info hr {
+        display: none;
+    }
+
+    aside img {
+        width: 93%;
+        margin: 2rem 1rem 0 1rem;
+        align-self: center;
+    }
+
+    aside article {
+        margin: 0 1rem 1.5rem 1rem;
+    }
+
+    #skills {
+        width: auto;
+    }
+
+    #languages {
+        width: auto;
+    }
+
+    main {
+        width: auto;
+    }
+
+    #education {
+        margin: 3% 6%;
+        padding: 2rem 3rem;
+    }
+
+    #work {
+        margin: 3% 6%;
+        padding: 2rem 3rem;
+    }
+
+    .progress-bar {
+        color: #009688;
+    }
+
+    .school > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .uni-img-container {
+        float: none;
+        background: none;
+        width: 10rem;
+        height: auto;
+    }
+}
+
+​

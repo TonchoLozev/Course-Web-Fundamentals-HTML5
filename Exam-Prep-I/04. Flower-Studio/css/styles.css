@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans ');
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    padding: 2rem 2rem;
+}
+
+header {
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    color: #817D81;
+    height: 3.5rem;
+    align-items: center;
+}
+
+header nav span:hover {
+    cursor: pointer;
+}
+
+header nav:nth-child(1) {
+    width: 22rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav:nth-child(1) span:first-child {
+    display: flex;
+    justify-content: space-between;
+    width: 42px;
+    color: #F95B52;
+}
+
+header nav:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    width: 6.5rem;
+}
+
+header nav:nth-child(2) span:last-child {
+    border-left: 1px solid #DEDEDE;
+    border-right: 1px solid #DEDEDE;
+    padding: 0 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.advertisement {
+    background-image: url("../img/residential-banner-2.jpg");
+    width: 100%;
+    height: 40%;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+}
+
+.advertisement span {
+    font-size: 2rem;
+}
+
+.advertisement span:first-of-type {
+    margin-top: 1rem;
+}
+
+.advertisement p {
+    font-size: 13px;
+    margin-top: 0.8rem;
+}
+
+.advertisement p:first-of-type {
+    width: 17rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.description > span:first-child{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.description div {
+    justify-content: center;
+    display: flex;
+}
+
+.description article {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 10.5rem;
+    justify-content: space-between;
+    height: 9rem;
+    padding: 0 2rem;
+}
+
+.description article span:nth-child(1){
+    font-size: 2rem;
+    color: #5A5A5A;
+    display: flex;
+    align-items: center;
+    width: 5rem;
+    justify-content: space-between;
+}
+
+.description article span:nth-child(2){
+    font-size: 1.2rem;
+    color: #5C5B61;
+}
+
+.description article p {
+    text-align: center;
+    font-size: 13px;
+    color: #5A5D60;
+}
+
+hr{
+    width: 1.3rem;
+}
+
+.photos{
+    display: flex;
+    padding: 3rem 15rem;
+    justify-content: space-between;
+    background-color: #ECECEC;
+}
+
+.photos img{
+    height: 11rem;
+    width: auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: #6D5C34;
+    padding: 2rem 12rem 1rem 12rem;
+    height: 13rem;
+    justify-content: space-between;
+}
+
+footer div{
+    display: flex;
+}
+
+footer div ul{
+    font-size: 11px;
+    width: 27rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+footer div ul li{
+    list-style: none;
+    margin-bottom: 4px;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+footer div ul li img{
+    width: 7rem;
+    height: 3rem;
+}
+
+footer div ul li:last-child{
+    color: white;
+    font-size: 8px;
+    margin-top: 1rem;
+}
+
+footer div ul li:last-child i{
+    margin: 0 2px;
+}
+
+footer div div {
+    flex-direction: column;
+    font-size: 11px;
+    width: 13rem;
+    justify-content: space-between;
+    height: 5.7rem;
+    margin-top: 0.8rem;
+}
+
+footer div div p{
+    text-align: center;
+}
+
+footer div div input{
+    font-size: 11px;
+    padding: 6px;
+    width: 10rem
+}
+
+footer div div button{
+    font-size: 11px;
+    background-color: #FA5B3D;
+    border: none;
+    padding: 6px;
+    color: white;
+    width: 5rem;
+}
+
+footer hr{
+    width: 18rem;
+    border-color: #6D5C34;
+}
+
+footer section{
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+}

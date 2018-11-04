@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 2.2rem 11rem;
+}
+
+main {
+    display: flex;
+}
+
+
+section {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.welcome-section{
+    margin-right: 1.5rem;
+}
+
+.headers {
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+    border-left: 2px solid #656565;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+}
+
+.headers span:nth-child(1) {
+    font-size: 2rem;
+    color: #000002;
+}
+
+.headers span:nth-child(2) {
+    color: #8A8F98;
+    font-size: 0.9rem;
+}
+
+.welcome-section .articles {
+    display: flex;
+    font-size: 0.9rem;
+    width: 38rem;
+}
+
+.welcome-section .articles p:nth-child(1) {
+    margin-right: 2rem;
+}
+
+img{
+    height: 11.7rem;
+}
