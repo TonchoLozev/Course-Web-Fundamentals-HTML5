@@ -1,0 +1,53 @@
+@media only screen and (max-width: 480px) {
+    body {
+        background-position: top;
+        background-size: contain;
+    }
+
+    header .logo {
+        margin: 0 0 1.5rem 0;
+    }
+
+    .wrapper > header.special {
+        padding: 2rem 2rem;
+    }
+
+    .wrapper > header h2 {
+        margin-top: 0;
+    }
+
+    .wrapper.style1 .content {
+        padding: 1rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .wrapper.style2 {
+        padding: 1.5rem;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery > * {
+        width: 100%;
+    }
+
+    .spotlight > * {
+        width: 100%;
+    }
+
+    .spotlight .inner {
+        padding: 2rem 3rem;
+        text-align: center;
+    }
+
+    h2, h3 {
+        margin-top: 0;
+    }
+
+    .spotlight p:last-child {
+        font-size: 0.9rem;
+    }
+}
